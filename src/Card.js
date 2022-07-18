@@ -9,7 +9,7 @@ export default function Card (props){
             <div>
                 {props.peopel.map((peop) => (
                    <div className="pt-8 flex"> 
-                    <img className=" rounded-full w-24 h-24"src={peop.image} alt="image"/>
+                    <img className=" rounded-full w-24 h-24"src={peop.image} alt=""/>
                     <div className="flex flex-col p-5">
                         <span className="font-medium text-xl">{peop.name}</span>
                         <span className="text-gray pt-2 text-lg">{peop.age} years</span> 
